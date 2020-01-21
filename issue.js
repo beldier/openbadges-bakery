@@ -6,7 +6,7 @@ var fs = require('fs');
 
 	// prepare the assertion and image
 	var img=fs.readFileSync(file);
-	console.log(img);
+	//a fake assertion just for testing purposes
 	var theAssertion ={
 		"uid": "123456789abcdefghi987654321jklmnopqr",
 		"recipient": {
@@ -27,8 +27,6 @@ var fs = require('fs');
 	};
 	//bake assertion into image
 	bakery.bake(options, function(err, data){
-		//give the baked badge a file name
-		var fileName = 'badge.png';
 		var imagePath = "baked/"+file;//"baked" directory
 		//write the returned baked badge data to file
 		fs.writeFile(imagePath, data, function (err) {
