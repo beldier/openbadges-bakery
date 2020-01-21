@@ -1,0 +1,57 @@
+{
+    "report": {
+        "valid": true,
+        "warningCount": 0,
+        "messages": [],
+        "errorCount": 0,
+        "openBadgesVersion": "2.0",
+        "validationSubject": "https://api.badgr.io/public/assertions/-OYKcYWTTcOttQRumUfYYw"
+    },
+    "input": {
+        "input_type": "url",
+        "value": "https://api.badgr.io/public/assertions/-OYKcYWTTcOttQRumUfYYw"
+    },
+    "graph": [
+        {
+            "@context": "https://w3id.org/openbadges/v2",
+            "recipient": {
+                "salt": "0e110b9f208344ea8bcbd1048170c019",
+                "type": "email",
+                "hashed": true,
+                "identity": "sha256$de22b9a3d3601e772c13f4165c0d434e5685b4f9924524050949a2bc52c881c3"
+            },
+            "type": "Assertion",
+            "image": "https://api.badgr.io/public/assertions/-OYKcYWTTcOttQRumUfYYw/image",
+            "issuedOn": "2020-01-13T12:23:54.377441+00:00",
+            "badge": "https://api.badgr.io/public/badges/U8cuzhs7T3SRJVhDCSFHEA",
+            "id": "https://api.badgr.io/public/assertions/-OYKcYWTTcOttQRumUfYYw",
+            "verification": {
+                "type": "HostedBadge"
+            }
+        },
+        {
+            "issuer": "https://api.badgr.io/public/issuers/_qQ5OS0BTfCj8q9itjE64A",
+            "@context": "https://w3id.org/openbadges/v2",
+            "tags": [],
+            "image": "https://api.badgr.io/public/badges/U8cuzhs7T3SRJVhDCSFHEA/image",
+            "criteria": {
+                "narrative": "Successfully complete the Badgr Web Explorer activity to earn a badge."
+            },
+            "alignment": [],
+            "description": "Complete a quick activity and earn a badge to prove your web navigation skills.",
+            "name": "Badgr Web Explorer",
+            "id": "https://api.badgr.io/public/badges/U8cuzhs7T3SRJVhDCSFHEA",
+            "type": "BadgeClass"
+        },
+        {
+            "@context": "https://w3id.org/openbadges/v2",
+            "type": "Issuer",
+            "email": "support@badgr.com",
+            "name": "Badgr Team",
+            "description": "The team leading the development of our platform for awarding and managing Open Badges.",
+            "image": "https://api.badgr.io/public/issuers/_qQ5OS0BTfCj8q9itjE64A/image",
+            "url": "http://badgr.com",
+            "id": "https://api.badgr.io/public/issuers/_qQ5OS0BTfCj8q9itjE64A"
+        }
+    ]
+}
